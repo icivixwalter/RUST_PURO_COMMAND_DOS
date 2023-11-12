@@ -1,0 +1,64 @@
+Servizi attivi su Windows 10:					
+												
+------------------------------------------	
+  file SERVIZI_ATTIV_PID+NOME_(Tutti).BAT		
+------------------------------------------	
+   											
+												
+
+Nome immagine                  PID Nome sessione    Sessione n. Utilizzo mem
+========================= ======== ================ =========== ============
+csrss.exe                      540 Console                    1      2.508 K
+winlogon.exe                   616 Console                    1      4.304 K
+fontdrvhost.exe                780 Console                    1      2.304 K
+dwm.exe                       1020 Console                    1     45.160 K
+sihost.exe                    3148 Console                    1     17.096 K
+svchost.exe                   3176 Console                    1     17.948 K
+svchost.exe                   3188 Console                    1     11.992 K
+ctfmon.exe                    3928 Console                    1      8.740 K
+explorer.exe                  4124 Console                    1     87.060 K
+dllhost.exe                   4300 Console                    1     10.476 K
+svchost.exe                   4328 Console                    1     11.992 K
+TextInputHost.exe             3592 Console                    1      8.956 K
+StartMenuExperienceHost.e     5032 Console                    1     40.072 K
+RuntimeBroker.exe              384 Console                    1     17.044 K
+RuntimeBroker.exe             5176 Console                    1     17.728 K
+TOTALCMD64.EXE                5876 Console                    1     25.724 K
+SearchApp.exe                 5636 Console                    1     52.712 K
+svchost.exe                   2784 Console                    1      2.304 K
+RuntimeBroker.exe              984 Console                    1      2.588 K
+ApplicationFrameHost.exe      2536 Console                    1        680 K
+WinStore.App.exe              4256 Console                    1        112 K
+UserOOBEBroker.exe             396 Console                    1      4.200 K
+dllhost.exe                   5824 Console                    1      6.004 K
+RuntimeBroker.exe             6384 Console                    1     21.232 K
+Microsoft.Photos.exe          3356 Console                    1     17.332 K
+RuntimeBroker.exe             4212 Console                    1     21.772 K
+ShellExperienceHost.exe        212 Console                    1      8.136 K
+RuntimeBroker.exe             1036 Console                    1      3.372 K
+msedge.exe                     380 Console                    1    176.492 K
+msedge.exe                    6796 Console                    1     14.208 K
+msedge.exe                    6332 Console                    1     37.516 K
+msedge.exe                    6200 Console                    1     17.380 K
+msedge.exe                    6020 Console                    1     52.684 K
+msedge.exe                    3496 Console                    1    146.008 K
+msedge.exe                    2944 Console                    1     23.272 K
+msedge.exe                    1264 Console                    1     42.792 K
+msedge.exe                    4852 Console                    1     44.184 K
+msedge.exe                    6032 Console                    1     46.824 K
+msedge.exe                    5056 Console                    1     24.512 K
+msedge.exe                    6472 Console                    1    115.820 K
+sublime_text.exe               468 Console                    1     81.740 K
+plugin_host-3.3.exe           2180 Console                    1     22.332 K
+plugin_host-3.8.exe           4620 Console                    1     14.524 K
+TextPad.exe                   4188 Console                    1     23.560 K
+SearchApp.exe                 1508 Console                    1     82.576 K
+SearchProtocolHost.exe        4404 Console                    1      7.468 K
+powershell.exe                6488 Console                    1     74.156 K
+conhost.exe                   7176 Console                    1     16.180 K
+cargo.exe                     3632 Console                    1      8.280 K
+cargo.exe                     1500 Console                    1     15.216 K
+msedge.exe                    8124 Console                    1     16.368 K
+cmd.exe                       6416 Console                    1      4.652 K
+conhost.exe                   5304 Console                    1     18.020 K
+tasklist.exe                  7252 Console                    1      9.016 K
