@@ -1,0 +1,8 @@
+[package]
+name = "cmd_task_kill"
+version = "0.1.0"
+edition = "2021"
+
+# Vedi https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

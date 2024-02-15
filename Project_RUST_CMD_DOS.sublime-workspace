@@ -1,0 +1,562 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"pause"
+			],
+			[
+				"git",
+				"github"
+			],
+			[
+				"re",
+				"red"
+			],
+			[
+				"yell",
+				"yellow4"
+			],
+			[
+				"imp",
+				"import"
+			],
+			[
+				"impo",
+				"import"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"st",
+				"stepNumber"
+			],
+			[
+				"ste",
+				"stepNumber"
+			],
+			[
+				"c",
+				"calculateWinner"
+			],
+			[
+				"ge",
+				"getNextSymbol"
+			],
+			[
+				"w",
+				"white3"
+			],
+			[
+				"whi",
+				"white2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Channel"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"scheme",
+				"UI: Select Theme"
+			],
+			[
+				"them",
+				"Monokai Pro: select theme"
+			],
+			[
+				"SELECT THEM",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"menu ",
+				"MarkdownEditing: Unfold All Sections"
+			],
+			[
+				"a",
+				"Arithmetic"
+			],
+			[
+				"ari",
+				"Arithmetic"
+			],
+			[
+				"THEME",
+				"UI: Select Theme"
+			],
+			[
+				"react",
+				"ReactIDE: Switch between component and stylesheet"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: Install PackageLSP",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: s",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: IN",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build: New Build System"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 184.0,
+		"history":
+		[
+			"@ZIP@INCREMENTALE",
+			"incrementale",
+			"@ZIP@INCREMENTALE",
+			"menu",
+			"main",
+			"menu"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_open_access",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_open_access/src"
+	],
+	"file_history":
+	[
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_open_access/src/main.rs",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_open_access/Cargo.toml",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new06.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new09.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new08.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new07.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new01.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new05.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new04.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new03.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new02.jp2",
+		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new10.jp2",
+		"/C/CASA/CDM/LeTorri/FOR_FILE_N04_LeTorri_2024.bat",
+		"/C/CASA/CDM/LeTorri/FOR_FILE_N02_LeTorri_2023.bat",
+		"/C/CASA/CDM/LeTorri/FOR_FILE_N01_GESTIONE.bat",
+		"/C/CASA/CDM/LeTorri/FOR_FILE_N04_LeTorri_2024_ElencoFile.txt",
+		"/C/CASA/CDM/LeTorri/FOR_FILE_N99_ElencoFile_BAT_TXT_MD.TXT",
+		"/C/CASA/CDM/LeTorri/FOR_FILE_N05_LEGGI+EMAIL.bat",
+		"/C/CASA/CDM/LeTorri/FOR_FILE_N02_LeTorri_2023_ElencoFile.txt",
+		"/C/CASA/GE_CASA/GE_MARINO/BANCA/DOS_BANCA_SALVATAGGI_CARTELLE.BAT",
+		"/C/CASA/CDM/LeTorri/LeTorri_FOR_N04_21_CICLO_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat",
+		"/C/CASA/CDM/LeTorri/LE_TORRI.sublime-project",
+		"/C/CASA/CDM/LeTorri/2024/Zip_N70_ElencoFile.txt",
+		"/C/CASA/CDM/LeTorri/2024/ZIP_SALVATAGGIO_INCREMENTALE.BAT",
+		"/C/CASA/CDM/LeTorri/LeTorri_ANALISI.md",
+		"/C/CASA/CDM/LeTorri/ZIP_SALVATAGGIO_INCREMENTALE.BAT",
+		"/C/CASA/CDM/LeTorri/2023/Zip_N70_ElencoFile.txt",
+		"/C/CASA/CDM/LeTorri/2023/ZIP_SALVATAGGIO_INCREMENTALE.BAT",
+		"/C/CASA/CDM/LeTorri/2023/SALVATAGGIO_INCREMENTALE.BAT",
+		"/C/CASA/CDM/LeTorri/SALVATAGGIO_INCREMENTALE.BAT",
+		"/C/CASA/CDM/LeTorri/A________________________________________________________________________A.txt",
+		"/C/CASA/CDM/LeTorri/Zip_N70_ElencoFile.txt",
+		"/C/CASA/CDM/LeTorri/SALVA.BAT",
+		"/c/CASA/CDM/LaQuercia/2022_2023/ZIP_RAR_INCREMENTALE.BAT",
+		"/c/CASA/CDM/LaQuercia/2022_2023/Zip_N70_ElencoFile.txt",
+		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
+		"/c/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI.md",
+		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTORIAL.MD",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI.MD",
+		"/c/CASA/LINGUAGGI/DOS/DOS_FOR_N21_(COMANDO_FOR)_(ESEMPI)_27_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/Zip_N70_CRIPTA.bat",
+		"/c/CASA/LINGUAGGI/DOS/DRIVER_N02-01_CMD_DriverQuery.txt",
+		"/c/CASA/LINGUAGGI/DOS/Progetti_DOS.sublime-project",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/APRI_FILE.md",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_RAR_INCREMENTALE.BAT",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/XCOPY.MD",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_CRIPTA.bat",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_DECODIFICA.bat",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/APRI_FILE.md",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/COMANDI_DOS_TUTTI.md",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/untitled.sublime-build",
+		"/C/CASA/LINGUAGGI/DOS/Progetti_DOS.sublime-project",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_ElencoFile.txt",
+		"/C/CASA/LINGUAGGI/DOS/ZIP_INCREMENTALE/Zip_N70_CRIPTA.bat",
+		"/C/CASA/LINGUAGGI/DOS/Progetto_DOS.sublime-project",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/Zip_N70_ElencoFile.txt",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_RAR_INCREMENTALE.BAT",
+		"/C/CASA/CDM/LaQuercia/2022_2023/ZIP_RAR_INCREMENTALE_new.BAT",
+		"/C/CASA/CDM/LaQuercia/2022_2023/ZIP_RAR_INCREMENTALE.BAT",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/IL_MIO_TUTORIAL_SUBLIMETEXT.MD",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/SUBLIMETEXT_DOCUMENTAZIONE_UFFICIALE.MD",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/DOS_GIT_SALVA_TUTTO.BAT",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/Markdown.sublime-package",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Installed Packages/MarkdownEditing.sublime-package",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/SUBLIMETEXT_DOCUMENTAZIONE_DELLA_COMUNITA.MD",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/TUTORIAL_SUBLIMETEXT_DOS_COPIA_IN_GIT.bat",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/TUTORIAL_SUBLIMETEXT_DOS_COPY.bat",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/GUIDA_POWER_SHELL.MD",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/GUIDA_REACT_HTML.md",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/GUIDA_YAML.MD",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/2023-04-16.md",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/REACT_GUIDA_HTML.sublime-project",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/HomePage.md",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/Theme - Monokai+/Monokai+.sublime-theme",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Markdown.sublime-settings",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/MarkdownEditor.sublime-color-scheme",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Mariana.sublime-color-scheme",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/MarkdownEditor-ArcDark.sublime-color-scheme",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/MarkdownEditor-Dark.sublime-color-scheme",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Monokai.sublime-color-scheme",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Monokai+.sublime-color-scheme",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Terminus.sublime-settings",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/TUTORIAL_SUBLIMETEXT.MD",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/HTML-CSS-JS Prettify/Main.sublime-menu",
+		"/c/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/TUTORIAL_SUBLIMETEXT.MD",
+		"/c/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/GUIDA_REACT_HTML.md",
+		"/c/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/src/App.tsx",
+		"/c/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/src/App.css",
+		"/c/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/.gitignore",
+		"/c/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_GUIDA_HTML_IT/react-guida-html/tutorial/TUTORIAL_SUBLIMETEXT_DOS_COPY.bat",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/react_concetti_chiave_deno.sublime-project",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/tutorial/JAVA_JSX_CONCETTI_CHIAVE.MD",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/tutorial/GUIDA_REACT_HTML.md",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/tutorial/GUIDE_AVANZATE.md",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/App.tsx",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/TabellaProdottiConStatoFinale.tsx",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/TabellaProdottiConStato.tsx",
+		"/C/Users/icivi/AppData/Local/lapce/Lapce-Stable/data/plugins/d4rkr41n.dracula/README.md",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/TabellaProdotti.tsx",
+		"/C/GESTIONI/JAVA_JSX_CONCETTI_CHIAVE.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N51_KILL_SOLO_PROCESSI.bat",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/App.css",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFinestraRegistrazione.tsx",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFigo.tsx",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFinestraBenvenuto.tsx",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/tutorial/NUOVO PROGETTO REACT ELEMENTI ESSENZIALI.MD",
+		"/C/Users/icivi/Desktop/TasKill_N51_KILL_SOLO_PROCESSI.bat - collegamento.lnk",
+		"/C/TMP/Package Control.sublime-package",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/sublime-react-ide/ReactIDE.sublime-settings",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/CalcoloTemperatura.tsx",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/tutorial/JAVA_JSX_CONCETTI_CHIAVE.MD",
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-11-22_01-04-23_MOL56107915STDnch0027834642.zip/01-11-22_01-04-23_MOL56107915STDnch0027834642.csv",
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (3).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (2).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.zip/0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.CSV",
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642.zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_2022_2023_0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.zip/0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.CSV",
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_0027834642_CCO_XEC_CSV_1680365668053S6IKW2K.zip/0027834642_CCO_XEC_CSV_1680365668053S6IKW2K.CSV",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/TagSelect.tsx",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/App.tsx",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/tutorial/NUOVO PROGETTO REACT ELEMENTI ESSENZIALI.MD",
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/main.tsx",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/ReactIDE.sublime-settings"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 229.0,
+		"where_history":
+		[
+			"<project filters>",
+			"",
+			"<project filters>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"FOR_FILE_N04_2023_2024_ElencoFile.txt",
+			"FOR_FILE_N04_2023_2024.bat",
+			"FOR_FILE_N02_2021_2022_ElencoFile.txt",
+			"FOR_FILE_N02_2021_2022.bat",
+			"c:\\CASA\\CDM\\LeTorri\\2023\\",
+			"SALVATAGGI_2023",
+			"\\LeTorri\\2023\\",
+			"\\2023\\",
+			"PAUSE",
+			"@dir.02",
+			"@dir.01",
+			"@DIR@SINTASSI",
+			"@DIR",
+			"@DIR/D",
+			"@dir@/",
+			"@dir/",
+			"@cartelle",
+			"@salvataggi",
+			"@git",
+			"@salvataggio@veloce",
+			"@salvataggi",
+			"@FORFILES",
+			"@FIND",
+			"@salvataggio",
+			"@salvataggio@rapdi",
+			"@web",
+			"@forfiles@path",
+			"@forfile@path",
+			"@WEB",
+			"@TUTORIAL",
+			"      @WEB",
+			"@dos@tutorial",
+			"SintassiForFile",
+			"@forfiles@esempi",
+			"@forfile@esempi",
+			"@apri",
+			"@git",
+			"@zip@incrementale",
+			"ANALISI_DB_VITTORIA_770_GE.txt",
+			"@xcopy",
+			"@comandi@dos",
+			"@comando",
+			"@sintassi",
+			"@FORFILE",
+			"@comandi@dos",
+			"@GE614",
+			"@Esempi@FORFILES",
+			"@dove",
+			"@pulizie@condominio",
+			"@apri@file",
+			"@dos@apri@file",
+			"@INCREMENTALE",
+			"@bat@INCREMENTALE",
+			"@ZIP@INCREMENTALE",
+			"rem",
+			"@incrementale"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"FOR_FILE_N04_LeTorri_2024_ElencoFile.txt",
+			"FOR_FILE_N04_LeTorri_2024.bat",
+			"FOR_FILE_N02_LeTorri_2023_ElencoFile.txt"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": false,
+		"use_buffer2": false,
+		"use_gitignore": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 83.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 255.0
+	},
+	"output.diagnostics":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 301.0
+	},
+	"output.markdown":
+	{
+		"height": 132.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 323.0
+	},
+	"pinned_build_system": "",
+	"project": "Project_RUST_CMD_DOS.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\CASA\\LINGUAGGI\\HTML\\PROGETTI_HTML\\REACT_GUIDA_HTML_IT\\react-guida-html\\REACT_GUIDA_HTML.sublime-project"
+			]
+		],
+		"width": 391.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 358.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
