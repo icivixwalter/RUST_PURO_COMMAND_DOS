@@ -1,6 +1,12 @@
 //dos
 //------------------------------> 2 colonne funziona
 
+// @echo -----------------------------------------------------------------------------
+// @echo si trova in questa c:\\CASA\\LINGUAGGI\\RUST\\RUST_PURO\\RUST_PURO_COMMAND_DOS\\cmd_task_kill\\
+// @echo file : 
+
+
+
 use std::process::{Command, exit};
 
 fn main() {
@@ -34,3 +40,11 @@ fn main() {
         exit(1);
     }
 }
+
+
+
+/*
+    COMANDI PER TROVARE ED ESEGUIRE RUST
+        where rustup    = dove si trova rustup  quindi trova dove è l'eseguibile
+
+*/
