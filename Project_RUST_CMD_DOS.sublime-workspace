@@ -63,6 +63,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "cmd_copia_file/src/main.rs",
+			"settings":
+			{
+				"buffer_size": 3122,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAATgkAAAAAAAAAAAAATgkAAAAAAABOCQAAAAAAAC0AAABmbiBtYWluKCkgewogICAgcHJpbnRsbiEoIkhlbGxvLCB3b3JsZCEiKTsKfQo",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					1,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAABOCQAAdXNlIHN0ZDo6ZnM7CgpmbiBwcm9jZXNzX2ZpbGVzKGlucHV0X2ZpbGVfbGlzdDogJnN0ciwgb3V0cHV0X2RpcjogJnN0cikgLT4gUmVzdWx0PCgpLCBzdGQ6OmlvOjpFcnJvcj4gewogICAgLy8gTGVnZ2kgaWwgY29udGVudXRvIGRlbCBmaWxlIGNoZSBjb250aWVuZSBpIHBlcmNvcnNpIGRlaSBmaWxlIGRhIGNvcGlhcmUKICAgIGxldCBmaWxlX2xpc3RfY29udGVudCA9IGZzOjpyZWFkX3RvX3N0cmluZyhpbnB1dF9maWxlX2xpc3QpPzsKICAgIGZvciBsaW5lIGluIGZpbGVfbGlzdF9jb250ZW50LmxpbmVzKCkgewogICAgICAgIGxldCBpbnB1dF9maWxlID0gbGluZS50cmltKCk7CiAgICAgICAgbGV0IG91dHB1dF9maWxlID0gZm9ybWF0ISgie30ve30iLCBvdXRwdXRfZGlyLCBpbnB1dF9maWxlKTsKCiAgICAgICAgLy8gRXNlZ3VpIFhDT1BZIHBlciBjb3BpYXJlIGlsIGZpbGUKICAgICAgICBsZXQgb3V0cHV0ID0gc3RkOjpwcm9jZXNzOjpDb21tYW5kOjpuZXcoImNtZCIpCiAgICAgICAgICAgIC5hcmdzKCZbIi9DIiwgIlhDT1BZIiwgaW5wdXRfZmlsZSwgJm91dHB1dF9kaXIsICIvWSJdKSAvLyAvWSBzb3ZyYXNjcml2ZSBpbCBmaWxlIGRpIGRlc3RpbmF6aW9uZSBzZW56YSBjaGllZGVyZSBjb25mZXJtYQogICAgICAgICAgICAub3V0cHV0KCk/OwogICAgICAgIAogICAgICAgIC8vIFN0YW1wYSBsJ291dHB1dCBkZWwgY29tYW5kbyBYQ09QWSBwZXIgaWwgY29udHJvbGxvCiAgICAgICAgcHJpbnRsbiEoIlxuXG4gT3V0cHV0IGRlbCBjb21hbmRvIFhDT1BZOiB7Oj99Iiwgb3V0cHV0KTsKICAgICAgICAKICAgICAgICBwcmludGxuISgiXG5cbiBGaWxlIGNvcGlhdG8gZGEge30gYSB7fSIsIGlucHV0X2ZpbGUsIG91dHB1dF9maWxlKTsKICAgIH0KICAgIE9rKCgpKQp9CgpmbiBtYWluKCkgewogICAgcHJpbnRsbiEoIlNBTFZBVEFHR0lPIEZJTEUgQ09OIFBBUkFNRVRSSSEiKTsKCiAgICAvKiBFJyBzdGF0byBtb2RpZmljYXRvIGlsIHBlcmNvcnNvIGRlaSBwYXJhbWV0cmksIG5vbiBwaXUgZGFsbGEgY2FydGVsbGEgcmlzb3JzZSBkaSBydXN0CiAgICAgICBtYSBkYSB1bmEgY2FydGVsbGEgc3BlY2lmaWNhIGNoZSBpbiBxdWVzdG8gY2FzbyBzaSB0cm92YSBzdSB5ICBtYSBwdW8gZXNzZXJlIGltcG9zdGEKICAgICAgIGRhIHF1YWx1bnF1ZSBhbHRyYSBwYXJ0ZS4KICAgICovCiAgICAvLyBQZXJjb3JzbyBkZWwgZmlsZSBjb250ZW5lbnRlIGwnZWxlbmNvIGRlaSBmaWxlIGRhIGNvcGlhcmUKICAgIC8vbW9kaWZpY28gbWV0dG8gbGEgcGF0aCBkaSB5OiAgICAKICAgIC8vbGV0IGlucHV0X2ZpbGVfbGlzdF9wYXRoID0gIi4vcmVzb3VyY2VzL3BhdGhfUGFydGVuemEudHh0IjsKICAgICAgICBsZXQgaW5wdXRfZmlsZV9saXN0X3BhdGggPSJ5Oi9MQVZPUklfUFVCQkxJQ0lfRklOT19BTF8zMF8wOV8yMDE5L1ZhbHRlci9PUEVSRV9QVUJCTElDSEUvMTM5X0VTUFJPUFJJL1JVU1RfQ09QSUFfRklMRS9yZXNvdXJjZXMvcGF0aF9QYXJ0ZW56YS50eHQiOwogICAgCiAgICAvLyBQZXJjb3JzbyBkZWxsYSBkaXJlY3RvcnkgZGkgb3V0cHV0CiAgICAvL2xldCBvdXRwdXRfZGlyX3BhdGggPSAiLi9yZXNvdXJjZXMvcGF0aF9TYWx2YXRhZ2dpby50eHQiOwoKICAgICAgICBsZXQgb3V0cHV0X2Rpcl9wYXRoID0ieTovTEFWT1JJX1BVQkJMSUNJX0ZJTk9fQUxfMzBfMDlfMjAxOS9WYWx0ZXIvT1BFUkVfUFVCQkxJQ0hFLzEzOV9FU1BST1BSSS9SVVNUX0NPUElBX0ZJTEUvcmVzb3VyY2VzL3BhdGhfU2FsdmF0YWdnaW8udHh0IjsKCiAgICAvLyBMZWdnaSBpbCBwZXJjb3JzbyBkZWxsYSBkaXJlY3RvcnkgZGkgb3V0cHV0IGRhIHBhdGhfU2FsdmF0YWdnaW8udHh0CiAgICBsZXQgb3V0cHV0X2Rpcl9jb250ZW50ID0gZnM6OnJlYWRfdG9fc3RyaW5nKG91dHB1dF9kaXJfcGF0aCkKICAgICAgICAuZXhwZWN0KCJJbXBvc3NpYmlsZSBsZWdnZXJlIGlsIGZpbGUgcGF0aF9TYWx2YXRhZ2dpby50eHQiKTsKICAgIGxldCBvdXRwdXRfZGlyID0gb3V0cHV0X2Rpcl9jb250ZW50LnRyaW0oKTsKCiAgICAvLyBTdGFtcGEgaWwgcGVyY29yc28gZGVsbGEgZGlyZWN0b3J5IGRpIG91dHB1dCBsZXR0byBkYWwgZmlsZQogICAgcHJpbnRsbiEoIlxuXG4gT3V0cHV0IGRpcmVjdG9yeSBsZXR0byBkYWwgZmlsZToge30iLCBvdXRwdXRfZGlyKTsKCiAgICAvLyBQcm9jZXNzYSBpIGZpbGUgdXRpbGl6emFuZG8gaSBwYXJhbWV0cmkgbGV0dGkgZGFpIGZpbGUKICAgIGlmIGxldCBFcnIoZXJyKSA9IHByb2Nlc3NfZmlsZXMoaW5wdXRfZmlsZV9saXN0X3BhdGgsIG91dHB1dF9kaXIpIHsKICAgICAgICBlcHJpbnRsbiEoIkVycm9yZSBkdXJhbnRlIGwnZWxhYm9yYXppb25lIGRlaSBmaWxlOiB7fSIsIGVycik7CiAgICB9Cn0KAAAAAAAAAAAyDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfwMAAAAAAAB/AwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -76,12 +103,12 @@
 		"selected_items":
 		[
 			[
-				"men",
-				"View: Toggle Menu"
+				"Package Control: ",
+				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Remove Channel"
+				"men",
+				"View: Toggle Menu"
 			],
 			[
 				"menu",
@@ -207,11 +234,14 @@
 	"expanded_folders":
 	[
 		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS",
-		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_open_access",
-		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_open_access/src"
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_copia_file",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_copia_file/src",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/TMP",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/TMP/src"
 	],
 	"file_history":
 	[
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/TMP/src.zip",
 		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_open_access/src/main.rs",
 		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COMMAND_DOS/cmd_open_access/Cargo.toml",
 		"/C/CASA/CDM/ViaBassini/2024/SPEDIRE/12_VIA_BASSINI_RELAZIONE_TECNICA_LONGO/new06.jp2",
@@ -338,8 +368,7 @@
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/TagSelect.tsx",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/App.tsx",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/tutorial/NUOVO PROGETTO REACT ELEMENTI ESSENZIALI.MD",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/main.tsx",
-		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/ReactIDE.sublime-settings"
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/main.tsx"
 	],
 	"find":
 	{
@@ -441,6 +470,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "cmd_copia_file/src/main.rs",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								612,
+								612
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1379.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],

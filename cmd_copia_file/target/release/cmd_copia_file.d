@@ -1,0 +1,1 @@
+C:\CASA\LINGUAGGI\RUST_PROGETTI\RUST_PURO\RUST_PURO_COMMAND_DOS\cmd_copia_file\target\release\cmd_copia_file.exe: C:\CASA\LINGUAGGI\RUST_PROGETTI\RUST_PURO\RUST_PURO_COMMAND_DOS\cmd_copia_file\src\main.rs
