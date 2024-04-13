@@ -1,0 +1,10 @@
+[package]
+name = "cmd_open_access"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# con l'uso dei comando dos non ci sono dipendenze
