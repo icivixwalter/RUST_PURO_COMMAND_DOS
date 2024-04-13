@@ -92,6 +92,10 @@ GIT
 							11) git merge sviluppo					= faccio il merge tra sviluppo --> 
 																	master
 
+							12) git commit -m "Merge branch 'sviluppo' into 'master'"
+
+
+
 
 
 
