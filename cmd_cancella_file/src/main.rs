@@ -1,10 +1,23 @@
+/*
+    CANCELLA DATI IN QUESTE DIRECTORY, solo i file
+        thumbcache_  
+
+        START "APRI" "C:\Users\icivi\AppData\Local\Microsoft\Windows\Explorer\"
+
+    Come posso integrare il crate lib.rs 
+
+
+*/
+
+
+
 use std::io::{self, Write};
 use std::process::Command;
 use std::fs;
 
 fn main() -> io::Result<()> {
     loop {
-        println!("Menu:");
+        println!("Menu Explorer:");
         println!("1) Visualizza i file da eliminare");
         println!("2) Elimina i file");
         println!("3) Esci");

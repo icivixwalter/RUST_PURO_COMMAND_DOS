@@ -93,6 +93,14 @@ GIT
 																	master
 
 							12) git commit -m "Merge branch 'sviluppo' into 'master'"
+							13) sul master fare il git add . + git commit -m "agg"
+							14) per configuare su github il branch master eseguire:
+								git push --set-upstream origin master
+
+								configura la repository remota da chiamare origin master
+
+								
+
 
 
 
