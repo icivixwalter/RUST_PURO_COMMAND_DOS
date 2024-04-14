@@ -34,7 +34,7 @@ fn main_menu() {
             "X" | "x" => break,
             _ => {
                 println!("SCELTA ERRATA NEL MENU PRINCIPALE. RIPROVA.");
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 5 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 5 secondi
                 //@cls.02 _(chiamo la procedura)
                 clear_screen();
             }
@@ -66,7 +66,7 @@ fn sub_menu(sub_menu_name: &str) {
             //0 = salva + ritardo + ritorno sottomenu
             "0" => {
                 println!("Hai selezionato 'Salva'");
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
                 clear_screen();
                 println!("Tornando al SOTTOMENU {}", sub_menu_name);
             },
@@ -74,7 +74,7 @@ fn sub_menu(sub_menu_name: &str) {
              //0 = salva + ritardo + ritorno sottomenu
             "1" => {
                 println!("Hai selezionato 'Visualizza'");
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
                 clear_screen();
                 println!("Tornando al SOTTOMENU {}", sub_menu_name);
             }
@@ -85,12 +85,12 @@ fn sub_menu(sub_menu_name: &str) {
                 clear_screen();
                 println!("IL SALVATAGGIO DATI NON ATTIVO!! ");
                 println!("Torno al SOTTOMENU {}", sub_menu_name);
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
             }
             //E= break o ritorno menu principale
             "E" | "e" => {
                 println!("Uscendo dal Sottomenu...");
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
                 clear_screen();
                 break;
             },
@@ -98,7 +98,7 @@ fn sub_menu(sub_menu_name: &str) {
             //null o scelta errata
             _ => {
                 println!("SCELTA ERRATA NEL SOTTOMENU {}. RIPROVA.", sub_menu_name);
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 5 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 5 secondi
                 //@cls.02 _(chiamo la procedura)
                 clear_screen();
             }

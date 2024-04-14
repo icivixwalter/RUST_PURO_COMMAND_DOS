@@ -1,5 +1,14 @@
+/*
+    Librerie esterne
+        explorer
+            funzioni che vengono utilizzate con per il menu principale
+            per gestire la directory Explorer\
 
-use std::io::{self, Write};     //imput
+    
+*/
+
+
+use std::io::{self, Write};     //imput da dos il file .txt
 //ritardo schermo
 use std::thread;
 use std::time::Duration;
@@ -7,16 +16,16 @@ use std::time::Duration;
 //@cls.00_(libreria per cls dello schermo)
 use std::process::Command;
 
-// Importa il modulo explorer
+// Importa il modulo @explorer_(modulo per gestire la directory explorer)
 pub mod explorer{
-   pub mod lib;
+   pub mod lib_explorer;
 }
 
 
 
 
 
-// Funzione per il menu principale
+// @01=Funzione per il menu principale
 fn main_menu() {
        //pulisco lo schermo
         clear_screen();
@@ -42,7 +51,7 @@ fn main_menu() {
             "X" | "x" => break,
             _ => {
                 println!("SCELTA ERRATA NEL MENU PRINCIPALE. RIPROVA.");
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 5 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 5 secondi
                 //@cls.02 _(chiamo la procedura)
                 clear_screen();
             }
@@ -51,17 +60,17 @@ fn main_menu() {
     }
 }
 
-// Funzione per i sottomenu
+// @02=Funzione per i sottomenu
 fn sub_menu(sub_menu_name: &str) {
 
     //pulisco lo schermo
         clear_screen();
     loop {
-        println!("SOTTOMENU {}", sub_menu_name);
-        println!("0. Salva");
-        println!("1. Visualizza");
-        println!("2. Salvataggi dei dati");
-        println!("3. Cancella DATI");
+        println!("SOTTOMENU {}",                sub_menu_name);
+        println!("0. Salva {}",                 sub_menu_name);
+        println!("1. Visualizza {}",            sub_menu_name);
+        println!("2. Salvataggi dei dati {}",   sub_menu_name);
+        println!("3. Cancella DATI {}",         sub_menu_name);
         println!("E. Torna al menu principale");
 
         print!("Seleziona un'opzione: ");
@@ -75,7 +84,7 @@ fn sub_menu(sub_menu_name: &str) {
             //0 = salva + ritardo + ritorno sottomenu
             "0" => {
                 println!("Hai selezionato 'Salva'");
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
                 clear_screen();
                 println!("Tornando al SOTTOMENU {}", sub_menu_name);
             },
@@ -83,13 +92,11 @@ fn sub_menu(sub_menu_name: &str) {
              //0 = salva + ritardo + ritorno sottomenu
             "1" => {
                 println!("Hai selezionato 'Visualizza'");
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
                 clear_screen();
-                //println!("Tornando al SOTTOMENU {}", sub_menu_name);
-                //chiamo la funzione explorer    
-                //explorer::lib::show_files_to_delete(); // Chiamata alla funzione per visualizzare i file da eliminare
-                //passo come parametro clear
-                explorer::lib::show_files_to_delete(clear_screen); // Chiamata alla funzione passando clear_screen come parametro
+                println!("Vado al SOTTOMENU EXPLORER");
+                //chiamo la libreria explorer PER LA VISUALIZZAZIONE e passo come parametro clear
+                explorer::lib_explorer::show_files_to_delete(clear_screen); // Chiamata alla funzione passando clear_screen come parametro
 
 
                 
@@ -102,23 +109,27 @@ fn sub_menu(sub_menu_name: &str) {
                     clear_screen();
                     println!("IL SALVATAGGIO DATI NON ATTIVO!! ");
                     println!("Torno al SOTTOMENU {}", sub_menu_name);
-                    thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                    thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
                 }
 
             //3 = CANCELLA DATI + ritardo + ritorno sottomenu
                 "3" => {
                     println!("Hai selezionato 'CANCELLAZIONE DEI DATI'");
                     clear_screen();
-                    println!("PER ORA LA CANCELLAZIONE NON E ATTIVA!! ");
-                    println!("Torno al SOTTOMENU {}", sub_menu_name);
-                    thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                    //println!("PER ORA LA CANCELLAZIONE NON E ATTIVA!! ");
+                    //println!("Torno al SOTTOMENU {}", sub_menu_name);
+                    thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
+                    //chiamo la libreria explorer PER LA CANCELLAZIONE e passo come parametro clear
+                    explorer::lib_explorer::delete_files(clear_screen); // Chiamata alla funzione passando clear_screen come parametro
+
+
                   }
 
 
             //E= break o ritorno menu principale
             "E" | "e" => {
                 println!("Uscendo dal Sottomenu...");
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 2 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 2 secondi
                 clear_screen();
                 break;
             },
@@ -126,7 +137,7 @@ fn sub_menu(sub_menu_name: &str) {
             //null o scelta errata
             _ => {
                 println!("SCELTA ERRATA NEL SOTTOMENU {}. RIPROVA.", sub_menu_name);
-                thread::sleep(Duration::from_secs(2)); // Ritardo di 5 secondi
+                thread::sleep(Duration::from_secs(1)); // Ritardo di 5 secondi
                 //@cls.02 _(chiamo la procedura)
                 clear_screen();
             }
@@ -137,7 +148,7 @@ fn sub_menu(sub_menu_name: &str) {
 }
 
 
-// Funzione per pulire lo schermo - @cls.01_(costruisco cls in windows, dos o shell)
+// @03=Funzione per pulire lo schermo - @cls.01_(costruisco cls in windows, dos o shell)
 fn clear_screen() {
     if cfg!(target_os = "windows") {
         Command::new("cmd").arg("/c").arg("cls").status().unwrap();
@@ -146,6 +157,7 @@ fn clear_screen() {
     }
 }
 
+//@99= main principale
 fn main() {
     main_menu();
 }

@@ -1,11 +1,30 @@
 README.MD
 
 
+UTILITA
+	FAQ
+		Come importare un modulo
+			Prima costruire una modulo su una cartella esterna ma comunque
+			all'interno di src.
+			Poi creare un file .rs in cuir impostara le varie
+			funzione richiamabili dalla main principale. Attenzione
+			le funzioni devono essere pubbliche.
+			vedi esempio ---> Importa il modulo @explorer
+
+
+FILE
+	directories_to_add.txt
+		QUESTO file serve per includere nel comando git add tutte
+		le directory della repository locale. Vedi il comando for.
+		Quindi quando rompe la repository locale con quella remota 
+		bisoga ricostruirla a mano.
+	
 
 GIT
 	ERRORI
 		Errore di branch
 			non riconosce in qual branch si trova:
+			@ricostruzione@repository_(quando è rovina si ricostruisce come segue)
 			
 			git commit -m "dos elimina file"
 
@@ -70,7 +89,10 @@ GIT
 							for /f "delims=" %i in (directories_to_add.txt) do git add "%i"
 
 							questo comando legge le righe dal file ed esegue add di git sulle path 
-							relative memoerizzate.
+							relative memorizzate.
+
+							IL  FILE directories_to_add.txt serve per leggere le directory da aggiungere
+							al comando git add %i
 
 
 

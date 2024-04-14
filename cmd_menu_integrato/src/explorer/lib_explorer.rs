@@ -12,13 +12,13 @@ use std::process::Command;
 
 //pub fn show_files_to_delete() {
 //visualizzo
-pub fn show_files_to_delete(clear_screen: fn()) {
+pub fn show_files_to_delete(_clear_screen: fn()) {
     
   //01= IMPOSTA I PARAMETRI
     println!("File da eliminare:");
 
-    // Chiamata alla funzione clear_screen passata come parametro
-    clear_screen();
+    // Chiamata alla funzione _clear_screen passata come parametro
+    _clear_screen();
 
     let directory = "C:\\Users\\icivi\\AppData\\Local\\Microsoft\\Windows\\Explorer\\";
 
@@ -34,7 +34,7 @@ pub fn show_files_to_delete(clear_screen: fn()) {
                     // Attendi l'input prima di proseguire + cancella
                     println!("Premi INVIO per continuare...");
                     let _ = io::stdin().read_line(&mut String::new());
-                    clear_screen();
+                    _clear_screen();
 
                 } else {
                     println!("Impossibile leggere la directory");
@@ -46,7 +46,8 @@ pub fn show_files_to_delete(clear_screen: fn()) {
   } //pub fn show_files_to_delete
 
 //DEL.01= DELETE FILE
-pub fn delete_files() -> io::Result<()> {
+//OLD pub fn delete_files() -> io::Result<()> {
+pub fn delete_files(_clear_screen: fn()) -> io::Result<()> {
     
   //DEL.01.02= IMPOSTO I PARAMETRI + LEGGO LA DIRECTORY
    //___________________________________________________________________//
@@ -66,6 +67,7 @@ pub fn delete_files() -> io::Result<()> {
     for entry in entries {
         if let Ok(entry) = entry {
             let file_name = entry.file_name().into_string().unwrap();
+
             if file_name.starts_with("thumbcache_") && file_name.ends_with(".db") {
                 let output = Command::new("cmd")
                     .args(&["/C", "del", &format!("{}{}", directory, file_name)])
@@ -79,13 +81,21 @@ pub fn delete_files() -> io::Result<()> {
                 }
             }
           }//if let Ok(entry)
+
       }//for entry in entries
 
+       
     //*** FINE ***    
     //___________________________________________________________________//
 
+                    // Attendi l'input prima di proseguire + cancella
+                    println!("Premi INVIO per continuare...");
+                    let _ = io::stdin().read_line(&mut String::new());
+                    _clear_screen();
+
     Ok(())
- 
+            
+
 
 
  } //pub fn delete_files

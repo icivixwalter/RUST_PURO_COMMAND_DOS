@@ -1,0 +1,19 @@
+//ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva//
+//questo esempio prevede .\ sulla path e sui file e non sempre funziona.
+//............................................................................
+.\DOC\
+.\XLS\
+.\A________________________________________________________________________A.txt
+.\PROJECT_LaQuercia_2023_2024.sublime-project
+.\PROJECT_LaQuercia_2023_2024.sublime-workspace
+.\REPORT_GESTIONE_CONDOMINIO.md
+
+.\ZIP_7ZIP_________________________________________________________________ZZ.txt
+.\ZIP_7ZIP_INCREMENTALE_FILE_UNICO_(CRIPTA+DECODIFICA_INTERNO)_(IN_STUDIO).BAT
+.\ZIP_7ZIP_INCREMENTALE_CRIPTA+DECODFICA_ESTERNO.BAT
+
+.\Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
+.\Zip_N70_CRIPTA.bat
+.\Zip_N70_DECODIFICA.bat
+.\Zip_N70_ElencoFile.txt
+.\Zip_N70_ElencoFileESCLUSI.txt
