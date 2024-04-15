@@ -1,10 +1,18 @@
-/*
-    le funzioni di visualizzazione, salvataggio e cancellazione
+/*lib_ufficio_edge_chronium_cache_internet.rs 
+	libreia per il cache edge dell'ufficio
+
+	  le funzioni di visualizzazione, salvataggio e cancellazione
     della directory 
-    C:\Users\icivi\AppData\Local\Microsoft\Windows\Explorer\
+    C:\\Users\\walter.rossi\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Cache\\Cache_Data\\
+
+
+    file f_0*.*
 
 
 */
+
+
+
 
 //00_@explorer_LIBRERIE
 //-----------------------------------------------------------------------------------//
@@ -24,7 +32,7 @@
         // Chiamata alla funzione _clear_screen passata come parametro
         _clear_screen();
 
-        let directory = "C:\\Users\\icivi\\AppData\\Local\\Microsoft\\Windows\\Explorer\\";
+        let directory = "C:\\Users\\walter.rossi\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Cache\\Cache_Data\\";
 
       //02= VISUALIZZA IF
             //_____________________________________________________________________//
@@ -58,7 +66,7 @@
     
     //DEL.01.02= IMPOSTO I PARAMETRI + LEGGO LA DIRECTORY
      //___________________________________________________________________//
-      let directory = "C:\\Users\\icivi\\AppData\\Local\\Microsoft\\Windows\\Explorer\\";
+      let directory = "C:\\Users\\walter.rossi\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Cache\\Cache_Data\\";
 
       let entries = match fs::read_dir(directory) {
           Ok(entries) => entries,
@@ -75,7 +83,7 @@
           if let Ok(entry) = entry {
               let file_name = entry.file_name().into_string().unwrap();
 
-              if file_name.starts_with("thumbcache_") && file_name.ends_with(".db") {
+              if file_name.starts_with("f_0") && file_name.ends_with("") {
                   let output = Command::new("cmd")
                       .args(&["/C", "del", &format!("{}{}", directory, file_name)])
                       .output()?;
