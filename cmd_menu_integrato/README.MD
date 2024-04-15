@@ -4,8 +4,13 @@ README.MD
 		cmd_menu_integrato
 
 			questa è la cartella del menu integrato per gli aggiornamenti digitare
+			aggiungi modifiche:
 
 				git add cmd_menu_integrato
+			commit:
+				git commit -m "agg cmd_menu_integrato"
+
+
 	Note
 		per cancellare i dati vengono presi ad esempio il LOG_UFFICIO ed LOG_CASA.
 		Per il LOG_UFFICIO le path di prova sono:
