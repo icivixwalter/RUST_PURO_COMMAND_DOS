@@ -1,0 +1,13 @@
+[package]
+name = "help_html"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+html-escape = "0.2"
+encoding_rs = "0.8"
+
+
+
+
+

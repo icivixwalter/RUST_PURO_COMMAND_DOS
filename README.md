@@ -1,4 +1,4 @@
-# RUST_PURO_COMMAND_DOS
+# RUST_PURO_COMMAND_DOS - @README@HELP
 
 COMANDI_GIT+DOS+RUST
 
@@ -41,3 +41,6 @@ PROGETTI_CREATI
 	cmd_task_Pid
 		controlla i pid di windows, è necessaria la libreia nel toml:
 			winapi = { version = "0.3", features = ["winuser"] }
+   help_html
+      crea una file @html o una @libreria@help@html
+         vai al codice---> @help@documentazione

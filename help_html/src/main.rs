@@ -1,0 +1,73 @@
+/* @CREA@FILE@HTML_(crea un tutorial oppure un @help in html)
+   codice --->@help@documentazione_(crea una documentazione delle note della classe.cls)
+*/
+
+use std::fs;
+use std::io::{self, Write};
+use encoding_rs::WINDOWS_1252;
+
+
+//@main@rust_(attivo la procedura per la compilazione del codice)
+fn main() -> io::Result<()> {
+   //@path@completa+file_(fornisco la path completa con il file della classe da cui prelevare i dati) 
+    let filepath = r"C:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS\MDB\MSys_GE_FILE\OBJECT\FORMS\Form_UTILITA_Msys_Frm21_IMPORTA_OGGETTI.cls";
+
+    // Leggi i byte grezzi
+    let raw_bytes = fs::read(filepath)?;
+
+    // Decodifica con WINDOWS-1252
+    let (decoded, _, had_errors) = WINDOWS_1252.decode(&raw_bytes);
+    if had_errors {
+        eprintln!("⚠️ Attenzione: alcuni caratteri non sono stati convertiti correttamente.");
+    }
+
+    let mut html_output = String::new();
+    let mut current_section = String::new();
+
+    html_output.push_str("<!DOCTYPE html>\n<html lang=\"it\">\n<head>\n<meta charset=\"UTF-8\">\n");
+    html_output.push_str("<title>Documentazione estratta</title>\n");
+    html_output.push_str("<style>body { font-family: Arial, sans-serif; } h2 { color: #2E86C1; }</style>\n");
+    html_output.push_str("</head>\n<body>\n");
+    html_output.push_str("<h1>Documentazione estratta dal file VBA</h1>\n");
+
+    for line in decoded.lines() {
+        let trimmed = line.trim();
+
+        if trimmed.starts_with("Private Sub ")
+            || trimmed.starts_with("Public Sub ")
+            || trimmed.starts_with("Private Function ")
+            || trimmed.starts_with("Public Function ")
+        {
+            if !current_section.is_empty() {
+                html_output.push_str("</div>\n");
+            }
+
+            current_section = trimmed.to_string();
+            html_output.push_str(&format!(
+                "<h2>{}</h2>\n<div style=\"margin-left:20px;\">\n",
+                html_escape::encode_text(&current_section)
+            ));
+            continue;
+        }
+
+        if trimmed.starts_with("'") || trimmed.starts_with("//") {
+            html_output.push_str(&format!(
+                "<p><code>{}</code></p>\n",
+                html_escape::encode_text(trimmed)
+            ));
+        }
+    }
+
+    if !current_section.is_empty() {
+        html_output.push_str("</div>\n");
+    }
+
+    html_output.push_str("</body>\n</html>");
+
+    let mut output_file = fs::File::create("documentazione_Form_UTILITA_Msys_Frm21_IMPORTA_OGGETTI.html")?;
+    output_file.write_all(html_output.as_bytes())?;
+
+    println!("✅ File 'documentazione.html' creato con tutti i commenti (inclusi quelli in encoding Windows-1252).");
+
+    Ok(())
+}
